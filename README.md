@@ -21,7 +21,6 @@ Para começar, você precisa **clonar o repositório** em sua máquina local.
 
    `cd cypress-e2e-nexdom`
 
-> **Dica:** Caso você não saiba onde o repositório foi salvo, você pode procurar por ele em seu computador com a ajuda do comando `find` (para usuários de macOS ou Linux) ou utilizar a função de busca no Explorador de Arquivos (Windows).
 
 ---
 
@@ -87,8 +86,3 @@ nexdom-e2e-tests/
 ```
 
 ---
-
-## 💡 Dica: Crie uma pasta dedicada para os testes
-
-Para facilitar a execução dos testes e manter o seu ambiente organizado, é uma boa prática **criar uma pasta específica** para rodar os testes. Isso pode ser feito facilmente, criando uma pasta como "TestesE2E" e salvando o repositório nela, ajudando a manter o projeto mais organizado.
-
