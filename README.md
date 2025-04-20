@@ -1,50 +1,49 @@
-# 🚀 Testes com Cypress – Nexdom
+🚀 Testes Automatizados com Cypress – Nexdom
 
-Este projeto de automação de testes utiliza [Cypress](https://www.cypress.io/) para validar funcionalidades do site Nexdom.
----
+Este projeto utiliza o Cypress para realizar testes automatizados nas funcionalidades do site Nexdom.
 
-## 📥 Download do projeto
+ Clone e Instalação
 
-1. **Clone o repositório**
+1. 🔁 Clone o repositório
 
-   git clone https://github.com/monielenunes/cypress-e2e-nexdom.git
-
-Acesse a pasta do projeto:
+git clone https://github.com/monielenunes/cypress-e2e-nexdom.git
 cd nexdom-e2e-tests
 
-🔧 Instalação
-Certifique-se de que você tem o Node.js instalado (versão 14 ou superior).
+2.  Instale as dependências
 
-Instale as dependências do projeto:
+Certifique-se de ter o Node.js instalado (versão 14 ou superior).
 
 npm install
 
-Instale o Faker para gerar dados fictícios usados nos testes:
+3.  Instale o Faker para gerar dados fictícios nos testes
 
 npm install faker --save-dev
 
-▶️ Como executar os testes
+▶️ Executando os Testes
 
-1. Executar via terminal:
+🔧 Via terminal
 
 npx cypress run
 
-2. Executar com interface gráfica do Cypress:
+💾 Com interface gráfica do Cypress
 
 npx cypress open
-A interface gráfica permitirá que você visualize a execução dos testes em tempo real.
 
-📁 Estrutura do projeto
+A interface gráfica permite visualizar a execução dos testes em tempo real.
+
+📁 Estrutura do Projeto
 
 nexdom-e2e-tests/
-├── cypress/       
-│   ├── e2e/                
+├── cypress/
+│   ├── e2e/
 │   │   ├── carreiras.cy.js
 │   │   ├── contato.cy.js
 │   │   └── home.cy.js
-│   ├── fixtures/           
-│   └── support/            
-├── cypress.config.js       
-├── package.json            
-├── package-lock.json       
-└── README.md               
+│   ├── fixtures/
+│   └── support/
+├── cypress.config.js
+├── package.json
+├── package-lock.json
+└── README.md
+
+
