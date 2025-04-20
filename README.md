@@ -1,6 +1,6 @@
-# 🚀 Testes E2E com Cypress – Nexdom
+# 🚀 Testes com Cypress – Nexdom
 
-Este projeto de automação de testes E2E utiliza [Cypress](https://www.cypress.io/) para validar funcionalidades do site Nexdom.
+Este projeto de automação de testes utiliza [Cypress](https://www.cypress.io/) para validar funcionalidades do site Nexdom.
 ---
 
 ## 📥 Download do projeto
